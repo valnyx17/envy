@@ -8,5 +8,13 @@ return {
             },
             opts = { skip = true },
         })
+        opts.cmdline = {
+            view = "cmdline",
+            format = {
+                cmdline = {
+                    icon = ":",
+                },
+            },
+        }
     end,
 }
