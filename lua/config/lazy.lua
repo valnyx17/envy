@@ -19,21 +19,21 @@ require("lazy").setup({
         {
             "LazyVim/LazyVim",
             opts = {
-                colorscheme = "lackluster",
+                colorscheme = "lackluster-hack",
             },
         },
         {
             "slugbyte/lackluster.nvim",
             lazy = false,
             priority = 1000,
-            init = function()
-                -- vim.cmd.colorscheme("lackluster")
-                vim.cmd.colorscheme("lackluster-hack") -- my favorite
-                -- vim.cmd.colorscheme("lackluster-mint")
-            end,
+            -- init = function()
+            -- vim.cmd.colorscheme("lackluster")
+            -- vim.cmd.colorscheme("lackluster-hack") -- my favorite
+            -- vim.cmd.colorscheme("lackluster-mint")
+            -- end,
         },
         {
-            "EdenEast/nightfox.nvim",
+            "EdenEast/nightfox.nvim", -- for nordfox
             opts = {
                 options = {
                     styles = {
